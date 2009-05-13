@@ -29,6 +29,7 @@ Radius Tags
 <r:news:headline >: Returns headline
 <r:news:leadtext >: Returns leadtext
 <r:news:text >: Returns text
+<r:news:id >: Returns id
 <r:news:marquee [behavior="scroll"] [direction="left"] [loop="true"] [scrollamount="1"] [scrolldelay="2"] > : Returns a <marquee>-Tag with all current news and leadtexts.
 
 Example:
