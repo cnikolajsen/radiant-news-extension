@@ -57,6 +57,13 @@ module NewsTags
   tag 'news:text' do |tag|
     tag.locals.news.text
   end
+  
+  desc %{
+    Returns id of current news
+  }
+  tag 'news:id' do |tag|
+    tag.locals.news.id
+  end
 
 
   def currentnews
